@@ -23,10 +23,14 @@ const components = {
         "not being a guy who retweets his own stuff........."]
 };
 
+function selectRandom(strArray) {
+    return strArray[Math.floor(Math.random()*strArray.length)];
+}
+
 function assembleTweet() {
-    return components.part1[Math.floor(Math.random()*components.part1.length)] + " " +
-            components.part2[Math.floor(Math.random()*components.part2.length)] + " " +
-            components.part3[Math.floor(Math.random()*components.part3.length)];
+    return selectRandom(components.part1) + " " +
+            selectRandom(components.part2)+ " " +
+            selectRandom(components.part3);
 }
 
 console.log(assembleTweet());
