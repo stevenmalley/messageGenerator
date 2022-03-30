@@ -8,20 +8,18 @@ const components = {
         "when you find out that i intentionally"],
 
     part2: ["team up to shoot",
-        "named \"Porno Pete\" do",
         "normalized",
         "to save money",
         "it WILL be tge best thing you've ever tasted",
         "talk about the oscars. Wrong.",
         "limit my power"],
 
-    part3: ["the most ufos you have everf fucking seen",
+    part3: ["the most ufos you have ever seen",
         "your taxes",
         "a thing in my life",
         "i simply laugh. all the smokers i know are Rich",
         "you WILL get diarrhea",
-        "Today we are honoring all of my girl followers who have ever died.",
-        "by not being a guy who retweets his own shit........."]
+        "by not being a guy who retweets his own stuff........."]
 };
 
 function assembleTweet() {
